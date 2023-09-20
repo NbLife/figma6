@@ -1,0 +1,50 @@
+.header{
+	@include section(512px);
+	@include section_picture('images/bg.jpg');
+}
+.header .container{
+	text-align: center;
+	padding: 100px 185px;
+}
+.header h1, .menu_page_1{
+	color: $color1;
+}
+.header h1{
+	font-size: 90px;
+	line-height: 104px;
+	margin-bottom: 60px;
+}
+.menu_page_1{
+	display: flex;
+	margin-top: 65px;
+	justify-content: center;
+}
+.menu_page_1 div{
+	width: 218px;
+	height: 80px;
+	border: 1px solid $color1;
+	background: rgba(255, 255, 255, 0.6);
+}
+.menu_page_1 div p{
+	font-size: 18px;
+	line-height: 80px;
+	color: $color1;
+}
+.two{
+	margin-left: 35px;
+}
+@media screen and (max-width: 868px){
+	.header .container{
+		padding: 264px 30px 100px;
+	}
+	.menu_page_1{
+		flex-direction: column;
+	}
+	.menu_page_1 div{
+		width: 334px;;
+	}
+	.two{
+		margin-left: 0;
+		margin-top: 37px;
+	}
+}

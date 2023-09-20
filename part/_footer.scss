@@ -1,0 +1,38 @@
+.footer{
+	@include section(512px/2);
+}
+.footer .container{
+	padding: 50px 75px 0;
+	text-align: center;
+	background-color: #000;
+	opacity: 0.75;
+	margin-bottom: -100px;
+	color: $color1;
+}
+.content_page_7{
+	display: flex;
+	justify-content: space-around;
+}
+.content_page_7 div{
+	width: 410px;
+}
+.footer ul{
+	justify-content: center;
+	margin-left: -5px;
+}
+.footer li{
+	margin-left: 5px;
+}
+.footer h2{
+	font-size: 21px;
+	line-height: 24px;
+}
+.footer img{
+	margin-top: 24px;
+	margin-bottom: 58px;
+}
+@media screen and (max-width: 868px){
+	.footer{
+		display: none;
+	}
+}

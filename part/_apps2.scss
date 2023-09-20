@@ -1,0 +1,57 @@
+.apps2{
+	@include section(512px);
+	@include section_picture('images/bg_3.jpg');
+}
+.apps2 .container{
+	padding: 100px 76px;
+	text-align: center;
+	display: flex;
+	justify-content: flex-end;
+}
+.apps2 h2, .apps2 p{
+	color: $color1;
+}
+.apps2 h2{
+	margin-bottom: 24px;
+}
+.apps2 p{
+	margin-top: 26px;
+	margin-bottom: 50px;
+}
+.apps2 ul{
+	justify-content: center;
+	margin-left: -28px;
+}
+.apps2 li{
+	border: 5px solid rgba(204, 153, 0, 0.5);
+	border-radius: 100%;
+	width: 114.9px;
+	height: 114.9px;
+	margin-left: 28px;
+	overflow: hidden;
+}
+.apps2 li img{
+	width: 114.9px;
+	height: 114.9px;
+	background-position: center;
+}
+.content_page_3{
+	width: 629px;
+	height: 550px;
+	background: rgba(0, 0, 0, 0.8);
+	padding: 50px 80px;
+}
+.li_one_page_3{
+	background-image: url(images/li1img.jpg);
+}
+.li_two_page_3{
+	background-image: url(images/li2img.jpg);
+}
+.li_three_page_3{
+	background-image: url(images/li3img.jpg);
+}
+@media screen and (max-width: 868px){
+	.apps1 .container{
+		padding: 100px 30px 103px;
+	}
+}

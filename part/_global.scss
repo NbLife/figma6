@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Yeseva+One&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font:{
+		family: 'Lato', cursive;
+		font-size: 16px;
+	}
+	line-height: 29px;
+}
+h1, h2, h3, h4, h5, h6{
+	font:{
+		family: 'Yeseva One', sans-serif;
+		size: 36px;
+	}
+	line-height: 42px;
+}
+ul{
+	list-style: none;
+	display: flex;
+}

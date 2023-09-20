@@ -1,0 +1,40 @@
+.apps1{
+	@include section(512px);
+	/*@include section_picture('images/bg_2.jpg');*/
+	background: linear-gradient(270deg, #F4F2F2 18.35%, $color1 84.09%);
+	box-shadow: inset 0px 4px 40px rgba(0, 0, 0, 0.1);
+}
+.apps1 .container{
+	padding: 100px 150px 75px;
+	text-align: center;
+}
+.apps1 h2{
+	color: $color2;
+	margin-bottom: 24px;
+}
+.apps1 p{
+	color: $color3;
+	margin-top: 16px;
+}
+.apps1 .container{
+	display: flex;
+}
+.content_page_2{
+	margin-right: 110px;
+}
+.content_page_2 .cook_img{
+	margin-left: 105px;
+	margin-top: 16px;
+	width: 289px;
+	height: 292px;
+}
+@media screen and (max-width: 868px){
+	.apps1 .container{
+		padding: 100px 184px;
+		display: flex;
+		justify-content: center;
+	}
+	.dish_img{
+		display: none;
+	}
+}

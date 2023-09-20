@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&display=swap');
+.apps4{
+	@include section(512px);
+	@include section_picture('images/bg_5.jpg');
+}
+.apps4 .container{
+	padding: 100px 295px;
+	color: $color1;
+	text-align: center;
+}
+.content_page_5{
+	margin: 0 auto;
+	padding: 63px 80px 69px;
+	width: 850px;
+	height: 550px;
+	background: rgba(0, 0, 0, 0.8);
+}
+.apps4 h2{
+	font-family: 'Yeseva One', sans-serif;
+	font-size: 36px;
+	line-height: 42px;
+}
+.apps4 p{
+	font-family: 'Gentium Book Basic', serif;
+	margin-top: 68px;
+	font-size: 24px;
+	line-height: 42px;
+}
+.apps4 .lato_font{
+	font-family: 'Lato', cursive;
+}
+@media screen and (max-width: 868px){
+	.apps4{
+		display: none;
+	}
+}

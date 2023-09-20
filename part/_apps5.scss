@@ -1,0 +1,67 @@
+.apps5{
+	@include section(512px);
+	/*@include section_picture('images/bg_2.jpg');*/
+}
+.apps5 .container{
+	padding: 100px 155px 75px;
+	text-align: center;
+	display: flex;
+}
+.second_picture{
+	margin-left: 30px;
+	margin-right: 110px;
+}
+.third_picture{
+	margin-top: 24px;
+	margin-bottom: 35px;
+}
+.apps5 h2{
+	color: $color2;
+}
+.apps5 p{
+	color: #000;
+}
+.gold, .gold_2{
+	font-size: 14px;
+	line-height: 25px;
+}
+.silver, .gold_2{
+	padding: 8px;
+	width: 196px;
+	height: 36px;
+	margin: 0 auto;
+}
+.gold{
+	color: $color4!important;
+	text-align: left;
+	font-weight: 700;
+}
+.gold_2{
+	color: $color1!important;
+	background-color: $color4;
+	margin-top: 38px;
+}
+.silver{
+	text-align: left;
+	color: $color5!important;
+	border: 1px solid $color5;
+	background-color: #fff;
+	margin-bottom: 21px;
+	font-size: 16px;
+	line-height: 20px;
+}
+.first{
+	border: 1px solid $color2;
+}
+.display_flex_main{
+	display: flex;
+	justify-content: center;
+}
+.display_flex_second{
+	margin-left: 30px;
+}
+@media screen and (max-width: 868px){
+	.apps5{
+		display: none;
+	}
+}
